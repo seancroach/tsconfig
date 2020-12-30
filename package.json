@@ -1,7 +1,7 @@
 {
   "name": "@seancroach/tsconfig",
   "version": "2.0.3",
-  "description": "Shared TypeScript configuration I use across my projects.",
+  "description": "A shared TypeScript configuration I use across my projects.",
   "license": "MIT",
   "repository": "seancroach/tsconfig",
   "author": "Sean Colin Roach <me@seancroach.dev> (http://seancroach.dev)",

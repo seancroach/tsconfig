@@ -18,7 +18,7 @@ _A robust shared TypeScript configuration I use across my projects._
 - Enables importing `.json` files directly within TypeScript
 - Targets Node v10 to ensure compatibility with all active LTS Node versions
 
-Of course, you *could* write all the configurations yourself, but why do that when
+Of course, you _could_ write all the configurations yourself, but why do that when
 it's already right here to use!
 
 ## Installation
