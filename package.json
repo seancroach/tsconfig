@@ -20,6 +20,9 @@
     "tsconfig",
     "typescript"
   ],
+  "dependencies": {
+    "@tsconfig/node10": "^1.0.7"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -37,8 +40,5 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "npm run prepare"
     }
-  },
-  "dependencies": {
-    "@tsconfig/node10": "^1.0.7"
   }
 }
