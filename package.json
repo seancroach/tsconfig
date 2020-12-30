@@ -11,7 +11,7 @@
   },
   "scripts": {
     "prepare": "prettier \"**\" --write",
-    "test": "pretter \"**\" --check"
+    "test": "prettier \"**\" --check"
   },
   "keywords": [
     "config",
