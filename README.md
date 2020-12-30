@@ -9,7 +9,7 @@
   </a>
 </p>
 
-_A robust shared TypeScript configuration I use across my projects._
+_A shared TypeScript configuration I use across my projects._
 
 ## Highlights
 
