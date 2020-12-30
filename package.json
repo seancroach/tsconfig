@@ -1,0 +1,40 @@
+{
+  "name": "@seancroach/tsconfig",
+  "version": "2.0.0",
+  "description": "Shared TypeScript configuration I use across my projects.",
+  "license": "MIT",
+  "repository": "seancroach/tsconfig",
+  "author": "Sean Colin Roach <me@seancroach.dev> (http://seancroach.dev)",
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "prepare": "prettier \"**\" --write"
+  },
+  "keywords": [
+    "config",
+    "configurations",
+    "ts",
+    "tsconfig",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.6",
+    "prettier": "^2.2.1",
+    "prettier-plugin-package": "^1.3.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run prepare"
+    }
+  }
+}
