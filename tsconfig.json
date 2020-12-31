@@ -4,6 +4,8 @@
     // build configurations
     "assumeChangesOnlyAffectDirectDependencies": false,
 
+    "declaration": true,
+
     // runtime configurations
     "resolveJsonModule": true,
 
